@@ -1,0 +1,43 @@
+@media (max-width: 380px) {
+  .header-content__title {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .nav__btn,
+  .nav-menu {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+  .contact {
+    flex-direction: row;
+  }
+
+  .contact__left{
+    margin-top: 0;
+    margin-right: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav__links {
+    display: block;
+  }
+  .header-content__caption {
+    max-width: 50rem;
+  }
+  .teaching {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

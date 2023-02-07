@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>حلرن</title>
+    <link rel="icon" type="image/png" href="images/app-icon.png" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="vendor/fontawesome/font-awesome.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/kamadatepicker/kamadatepicker.min.css"
+    />
+    <link rel="stylesheet" href="vendor/animate/animate-4.4.1.min.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/login.css" />
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="sticky">
+        <div class="container">
+          <nav class="nav">
+            <div class="nav__wrapper">
+              <a href="#" class="app-logo">
+                <img
+                  src="images/svgs/logo.svg"
+                  alt="HLearn"
+                  class="app-logo__img"
+                />
+              </a>
+
+              <ul class="menu">
+                <li class="menu__item">
+                  <a href="#home" class="menu__link menu__link--active">خانه</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#aboutus" class="menu__link">درباره ما</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#courses" class="menu__link">دوره ها</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#movies" class="menu__link">نمونه تدریس</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#teaching" class="menu__link">تدریس خصوصی</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#students" class="menu__link">نمونه کار ها</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#contactus" class="menu__link">تماس با ما</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="nav-menu">
+              <h2 class="nav-menu__title">حلرن</h2>
+              <ul class="mobile-menu">
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">خانه</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">درباره ما</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">دوره ها</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">نمونه تدریس</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">تدریس خصوصی</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">نمونه کار ها</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a href="#" class="mobile-menu__link">تماس با ما</a>
+                </li>
+              </ul>
+              <div class="nav-menu__links">
+                <a href="#" class="nav-menu__link">ثبت نام</a>
+                <a href="#" class="nav-menu__link nav-menu__link--border"
+                  >ورود</a
+                >
+              </div>
+            </div>
+
+            <div class="nav__links">
+              <a href="#" class="nav__link nav-link-register">ثبت نام</a>
+              <a href="#" class="nav__link nav__link--border nav-link-login"
+                >ورود</a
+              >
+            </div>
+
+            <div class="nav__btn">
+              <span class="nav__btn-line"></span>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- <div id="home"></div> -->
+
+      <!-- Start About Us -->
+      <section id="aboutus" class="container">
+        <div class="about-us__header">
+          <span class="about-us__title title">ما چه کمکی بهتون میکنیم؟</span>
+          <span class="about-us__subtitle"
+            >از اونجایی که آکادمی آموزشی حلرن یک آکادمی خصوصی هست</span
+          >
+        </div>
+
+        <div class="about-us">
+          <div class="about-us__box wow animate__animated animate__fadeInRight">
+            <div class="about-us__box-right">
+              <i class="far fa-copyright about-us__icon"></i>
+            </div>
+            <div class="about-us__box-left">
+              <span class="about-us__box-title">دوره های اختصاصی</span>
+              <span class="about-us__box-text"
+                >با پشتیبانی و کیفیت بالا ارائه میده !</span
+              >
+            </div>
+          </div>
+
+          <div class="about-us__box wow animate__animated animate__fadeInDown">
+            <div class="about-us__box-right">
+              <i class="fas fa-leaf about-us__icon"></i>
+            </div>
+            <div class="about-us__box-left">
+              <span class="about-us__box-title">اجازه تدریس</span>
+              <span class="about-us__box-text"
+                >به هر مدرسی رو نمیده. چون کیفیت براش مهمه !</span
+              >
+            </div>
+          </div>
+
+          <div class="about-us__box wow animate__animated animate__fadeInLeft">
+            <div class="about-us__box-right">
+              <i class="fas fa-gem about-us__icon"></i>
+            </div>
+            <div class="about-us__box-left">
+              <span class="about-us__box-title">دوره پولی و رایگان</span>
+              <span class="about-us__box-text"
+                >براش مهم نیست. به مدرسینش حقوق میده تا نهایت کیفیت رو در
+                پشتیبانی و اپدیت دوره ارائه بده</span
+              >
+            </div>
+          </div>
+
+          <div class="about-us__box wow animate__animated animate__fadeInUp">
+            <div class="about-us__box-right">
+              <i class="fas fa-crown about-us__icon"></i>
+            </div>
+            <div class="about-us__box-left">
+              <span class="about-us__box-title">اهمیت به کاربر</span>
+              <span class="about-us__box-text"
+                >اولویت اول و آخر آکادمی آموزش برنامه نویسی حلرن اهمیت به
+                کاربرها و رفع نیاز های آموزشی و رسوندن اونها به بازار کار
+                هست</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us -->
+
+      <!-- Start Courses -->
+
+      <section id="courses" class="container">
+        <div class="popular__header">
+          <span class="popular__title title">محبوب ترین دوره ها</span>
+        </div>
+
+        <div class="course-content">
+          <div class="course-box">
+            <a href="#courses">
+              <img
+                src="images/html.jpg"
+                alt="Course img"
+                class="course-box__img"
+              />
+            </a>
+            <div class="course-box__main">
+              <a href="#" class="course-box__title">آموزش HTML5</a>
+
+              <div class="course-box__rating-teacher">
+                <div class="course-box__teacher">
+                  <i
+                    class="fas fa-chalkboard-teacher course-box__teacher-icon"
+                  ></i>
+                  <a href="#" class="course-box__teacher-link">وحید نجفی</a>
+                </div>
+              </div>
+
+              <div class="course-box__status">
+                <div class="course-box__users">
+                  <i class="fas fa-users course-box__users-icon"></i>
+                  <span class="course-box__users-text">500</span>
+                </div>
+                <span class="course-box__price">1,000,000</span>
+              </div>
+            </div>
+            <div class="course-box__footer">
+              <a href="#" class="course-box__footer-link"
+                >مشاهده اطلاعات
+                <i class="fas fa-arrow-left course-box__footer-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="course-box">
+            <a href="#courses">
+              <img
+                src="images/css.jpg"
+                alt="Course img"
+                class="course-box__img"
+              />
+            </a>
+            <div class="course-box__main">
+              <a href="#" class="course-box__title">آموزش CSS3</a>
+
+              <div class="course-box__rating-teacher">
+                <div class="course-box__teacher">
+                  <i
+                    class="fas fa-chalkboard-teacher course-box__teacher-icon"
+                  ></i>
+                  <a href="#" class="course-box__teacher-link">وحید نجفی</a>
+                </div>
+              </div>
+
+              <div class="course-box__status">
+                <div class="course-box__users">
+                  <i class="fas fa-users course-box__users-icon"></i>
+                  <span class="course-box__users-text">500</span>
+                </div>
+                <span class="course-box__price">1,000,000</span>
+              </div>
+            </div>
+            <div class="course-box__footer">
+              <a href="#" class="course-box__footer-link"
+                >مشاهده اطلاعات
+                <i class="fas fa-arrow-left course-box__footer-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="course-box">
+            <a href="#courses">
+              <img
+                src="images/javascript.jpg"
+                alt="Course img"
+                class="course-box__img"
+              />
+            </a>
+            <div class="course-box__main">
+              <a href="#" class="course-box__title">آموزش JavaScript</a>
+
+              <div class="course-box__rating-teacher">
+                <div class="course-box__teacher">
+                  <i
+                    class="fas fa-chalkboard-teacher course-box__teacher-icon"
+                  ></i>
+                  <a href="#" class="course-box__teacher-link">وحید نجفی</a>
+                </div>
+              </div>
+
+              <div class="course-box__status">
+                <div class="course-box__users">
+                  <i class="fas fa-users course-box__users-icon"></i>
+                  <span class="course-box__users-text">500</span>
+                </div>
+                <span class="course-box__price">1,000,000</span>
+              </div>
+            </div>
+            <div class="course-box__footer">
+              <a href="#" class="course-box__footer-link"
+                >مشاهده اطلاعات
+                <i class="fas fa-arrow-left course-box__footer-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="course-box">
+            <a href="#courses">
+              <img
+                src="images/jquery.jpg"
+                alt="Course img"
+                class="course-box__img"
+              />
+            </a>
+            <div class="course-box__main">
+              <a href="#" class="course-box__title">آموزش jQuery</a>
+
+              <div class="course-box__rating-teacher">
+                <div class="course-box__teacher">
+                  <i
+                    class="fas fa-chalkboard-teacher course-box__teacher-icon"
+                  ></i>
+                  <a href="#" class="course-box__teacher-link">وحید نجفی</a>
+                </div>
+              </div>
+
+              <div class="course-box__status">
+                <div class="course-box__users">
+                  <i class="fas fa-users course-box__users-icon"></i>
+                  <span class="course-box__users-text">500</span>
+                </div>
+                <span class="course-box__price">1,000,000</span>
+              </div>
+            </div>
+            <div class="course-box__footer">
+              <a href="#" class="course-box__footer-link"
+                >مشاهده اطلاعات
+                <i class="fas fa-arrow-left course-box__footer-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-parent">
+          <div class="modal">
+            <span class="X">&times;</span>
+            <img src="" class="modal__img" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- End Courses -->
+
+      <!-- Start Movies -->
+
+      <section id="movies">
+        <div class="container">
+          <div class="popular__header">
+            <span class="popular__title title">نمونه تدریس دوره ها</span>
+          </div>
+
+          <div class="movies-wrapper">
+            <div class="movie">
+              <iframe
+                src="https://www.aparat.com/video/video/embed/videohash/F5zsR/vt/frame"
+                allowfullscreen="true"
+                webkitallowfullscreen="true"
+                mozallowfullscreen="true"
+              ></iframe>
+            </div>
+
+            <div class="movie">
+              <iframe
+                src="https://www.aparat.com/video/video/embed/videohash/F5zsR/vt/frame"
+                allowfullscreen="true"
+                webkitallowfullscreen="true"
+                mozallowfullscreen="true"
+              ></iframe>
+            </div>
+
+            <div class="movie">
+              <iframe
+                src="https://www.aparat.com/video/video/embed/videohash/F5zsR/vt/frame"
+                allowfullscreen="true"
+                webkitallowfullscreen="true"
+                mozallowfullscreen="true"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Movies -->
+
+      <!-- Start Teaching -->
+
+      <section id="teaching">
+        <div class="container">
+          <div class="popular__header">
+            <span class="popular__title title"
+              >تدریس خصوصی به صورت آنلاین یا در محل</span
+            >
+          </div>
+          <div class="teaching">
+            <div class="teaching__form">
+              <form action="#" method="post">
+                <div class="form__box">
+                  <label for="" class="form__label"
+                    >نام و نام خانوادگی :
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="نام و نام خانوادگی"
+                    class="form__input"
+                    required
+                  />
+                </div>
+
+                <div class="form__box">
+                  <label for="" class="form__label">تاریخ حضور استاد : </label>
+                  <input type="text" class="form__input" id="demo" />
+                </div>
+
+                <div class="form__box">
+                  <label for="" class="form__label">زمان حضور استاد : </label>
+                  <select name="" id="" class="form__box-select">
+                    <option value="">08:00 - 12:00</option>
+                    <option value="">12:00 - 16:00</option>
+                    <option value="">16:00 - 20:00</option>
+                    <option value="">20:00 - 24:00</option>
+                  </select>
+                </div>
+
+                <div class="form__box">
+                  <label for="">نوع تدریس : </label>
+                  <label for="online">آنلاین</label>
+                  <input type="radio" name="type" id="online" />
+                  <label for="offline">حضوری</label>
+                  <input type="radio" name="type" id="offline" />
+                </div>
+
+                <br />
+                <span class="form__hint"
+                  >مدت زمان هر جلسه 90 دقیقه می باشد</span
+                >
+                <br />
+                <span class="form__hint"
+                  >در صورت انتخاب کلاس حضوری حتما لوکیشن خودتان را وارد
+                  نمایید</span
+                >
+              </form>
+            </div>
+            <div class="teaching__map">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="420"
+                    height="316"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=tehran&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe
+                  ><a href="https://fmovies-online.net">fmovies</a><br /><style>
+                    .mapouter {
+                      position: relative;
+                      text-align: right;
+                      height: 316px;
+                      width: 420px;
+                    }</style
+                  ><a href="https://www.embedgooglemap.net">google embed maps</a
+                  ><style>
+                    .gmap_canvas {
+                      overflow: hidden;
+                      background: none !important;
+                      height: 316px;
+                      width: 420px;
+                    }
+                  </style>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Teaching -->
+
+      <!-- Start Students -->
+
+      <section id="students" class="container">
+        <div class="popular__header">
+          <span class="popular__title title"
+            >نمونه کار های دانشجو های دوره ها</span
+          >
+        </div>
+
+        <div class="course-content">
+          <div class="course-box">
+            <a href="#students">
+              <img
+                src="images/jquery.jpg"
+                alt="Course img"
+                class="course-box__img-change"
+              />
+            </a>
+            <div class="course-box__main-change">
+              <a href="#" class="course-box__title">ماشین حساب مهندسی</a>
+
+              <div class="course-box__rating-teacher">
+                <div class="course-box__teacher">
+                  <i
+                    class="fas fa-chalkboard-teacher course-box__teacher-icon"
+                  ></i>
+                  <a href="#" class="course-box__teacher-link">مارک زاکربرگ</a>
+                </div>
+              </div>
+            </div>
+            <div class="course-box__footer">
+              <a
+                href="#"
+                target="_blank"
+                class="course-box__footer-link"
+                >مشاهده اطلاعات
+                <i class="fas fa-arrow-left course-box__footer-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="course-box">
+            <a href="#students">
+              <img
+                src="images/jquery.jpg"
+                alt="Course img"
+                class="course-box__img-change"
+              />
+            </a>
+            <div class="course-box__main-change">
+              <a href="#" class="course-box__title">ماشین حساب مهندسی</a>
+
+              <div class="course-box__rating-teacher">
+                <div class="course-box__teacher">
+                  <i
+                    class="fas fa-chalkboard-teacher course-box__teacher-icon"
+                  ></i>
+                  <a href="#" class="course-box__teacher-link">مارک زاکربرگ</a>
+                </div>
+              </div>
+            </div>
+            <div class="course-box__footer">
+              <a
+                href="#"
+                target="_blank"
+                class="course-box__footer-link"
+                >مشاهده اطلاعات
+                <i class="fas fa-arrow-left course-box__footer-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="course-box">
+            <a href="#students">
+              <img
+                src="images/jquery.jpg"
+                alt="Course img"
+                class="course-box__img-change"
+              />
+            </a>
+            <div class="course-box__main-change">
+              <a href="#" class="course-box__title">ماشین حساب مهندسی</a>
+
+              <div class="course-box__rating-teacher">
+                <div class="course-box__teacher">
+                  <i
+                    class="fas fa-chalkboard-teacher course-box__teacher-icon"
+                  ></i>
+                  <a href="#" class="course-box__teacher-link">مارک زاکربرگ</a>
+                </div>
+              </div>
+            </div>
+            <div class="course-box__footer">
+              <a
+                href="#"
+                target="_blank"
+                class="course-box__footer-link"
+                >مشاهده اطلاعات
+                <i class="fas fa-arrow-left course-box__footer-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="course-box">
+            <a href="#students">
+              <img
+                src="images/jquery.jpg"
+                alt="Course img"
+                class="course-box__img-change"
+              />
+            </a>
+            <div class="course-box__main-change">
+              <a href="#" class="course-box__title">ماشین حساب مهندسی</a>
+
+              <div class="course-box__rating-teacher">
+                <div class="course-box__teacher">
+                  <i
+                    class="fas fa-chalkboard-teacher course-box__teacher-icon"
+                  ></i>
+                  <a href="#" class="course-box__teacher-link">مارک زاکربرگ</a>
+                </div>
+              </div>
+            </div>
+            <div class="course-box__footer">
+              <a
+                href="#"
+                target="_blank"
+                class="course-box__footer-link"
+                >مشاهده اطلاعات
+                <i class="fas fa-arrow-left course-box__footer-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Students -->
+
+      <!-- Start Contact Us -->
+
+      <section id="contactus" class="container">
+        <div class="popular__header">
+          <span class="popular__title title">تماس با ما</span>
+        </div>
+
+        <div class="contact">
+          <form action="" class="contact__right">
+            <div class="contact__inputs">
+              <input type="text" placeholder="نام و نام خانوادگی" />
+              <input type="email" placeholder="آدرس ایمیل" />
+            </div>
+            <div class="contact__topic">
+              <input type="text" placeholder="موضوع درخواست" />
+            </div>
+
+            <div class="contact__textarea">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="پیام شما"
+              ></textarea>
+            </div>
+
+            <button class="btn">ارسال پیام</button>
+          </form>
+
+          <div class="contact__left">
+            <div class="contact__items">
+              <h2>آدرس</h2>
+              <div class="contact__item">
+                <i class="fas fa-map-marked-alt"></i>
+                <p>زور آباد، میدان جهان کودک، سمت راست ، پلاک 85، طبقه 2</p>
+              </div>
+            </div>
+            <div class="contact__items">
+              <h2>ایمیل</h2>
+              <div class="contact__item">
+                <i class="fas fa-envelope"></i>
+                <p>vahidng.it@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact__items">
+              <h2>تلفن</h2>
+              <div class="contact__item">
+                <i class="fas fa-phone"></i>
+                <p>09212577537</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Finish Contact Us -->
+
+      <!-- Back to top btn -->
+      <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    </main>
+
+    <!-- Start Login -->
+
+    <div class="login-register-modal login-modal">
+      <section class="login-register">
+        <div class="login">
+          <span class="login-title">ورود به حساب کاربری</span>
+          <span class="login-subtitle"
+            >خوشحالیم دوباره می بینیمت دوست عزیز :)</span
+          >
+
+          <div class="login__new-member">
+            <span class="login__new-member-text">کاربر جدید هستید؟</span>
+            <a href="#" class="login__new-member-link go-to-register"
+              >ثبت نام</a
+            >
+          </div>
+
+          <form action="#" class="login-form">
+            <div class="login-form__username">
+              <input
+                type="text"
+                class="login-form__username-input"
+                placeholder="نام کاربری یا آدرس ایمیل"
+              />
+              <i class="fa fa-user login-form__username-icon"></i>
+            </div>
+            <div class="login-form__password">
+              <input
+                type="password"
+                class="login-form__password-input"
+                placeholder="رمز عبور"
+              />
+              <i class="fa fa-lock-open login-form__password-icon"></i>
+            </div>
+            <button class="login-form__btn" type="submit">
+              <i class="fas fa-sign-out-alt login-form__btn-icon"></i>
+              <span class="login-form__btn-text">ورود</span>
+            </button>
+            <div class="login-form__password-setting">
+              <label class="login-form__password-remember">
+                <input type="checkbox" class="login-form__password-checkbox" />
+                <span class="login-form__password-text"
+                  >مرا به خاطر داشته باش</span
+                >
+              </label>
+              <label class="login-form__password-forget">
+                <a href="#" class="login-form__password-forget-link"
+                  >رمز عبور را فراموش کرده اید؟</a
+                >
+              </label>
+            </div>
+          </form>
+
+          <div class="login-desc">
+            <span class="login-desc-title">سلام کاربر محترم:</span>
+            <ul class="login-desc-list">
+              <li class="login-desc-item">
+                لطفا از مرورگر های مطمئن و بروز مانند گوگل کروم و فایرفاکس
+                استفاده کنید.
+              </li>
+              <li class="login-desc-item">
+                ما هرگز اطلاعات محرمانه شما را از طریق ایمیل درخواست نمی کنیم.
+              </li>
+              <li class="login-desc-item">
+                لطفا کلمه عبور خود را در فواصل زمانی کوتاه تغییر دهید
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- <div class="login"> -->
+        <span class="X">&times;</span>
+        <!-- </div> -->
+      </section>
+    </div>
+
+    <!-- Finish Login -->
+
+    <!-- Start Register -->
+
+    <div class="login-register-modal register-modal">
+      <section class="login-register">
+        <div class="login">
+          <span class="login-title">ایجاد حساب کاربری جدید</span>
+          <span class="login-subtitle">به خانواده حلرن خوش امدی</span>
+
+          <div class="login__new-member">
+            <span class="login__new-member-text">قبلا ثبت نام کردی؟</span>
+            <a href="#" class="login__new-member-link go-to-login">ورود</a>
+          </div>
+
+          <form action="#" class="login-form">
+            <div class="login-form__username">
+              <input
+                type="text"
+                class="login-form__username-input"
+                placeholder="نام و نام خانوادگی"
+              />
+              <i class="fa fa-user login-form__username-icon"></i>
+            </div>
+            <div class="login-form__username">
+              <input
+                type="text"
+                class="login-form__username-input"
+                placeholder="نام کاربری"
+              />
+              <i class="fa fa-user login-form__username-icon"></i>
+            </div>
+            <div class="login-form__username">
+              <input
+                type="email"
+                class="login-form__username-input"
+                placeholder="آدرس ایمیل"
+              />
+              <i class="fa fa-user login-form__username-icon"></i>
+            </div>
+            <div class="login-form__username">
+              <input
+                type="tel"
+                class="login-form__username-input"
+                placeholder="شماره تماس"
+              />
+              <i class="fa fa-user login-form__username-icon"></i>
+            </div>
+            <div class="login-form__password">
+              <input
+                type="password"
+                class="login-form__password-input"
+                placeholder="رمز عبور"
+              />
+              <i class="fa fa-lock-open login-form__password-icon"></i>
+            </div>
+            <button class="login-form__btn" type="submit">
+              <i class="fas fa-sign-out-alt login-form__btn-icon"></i>
+              <span class="login-form__btn-text">ثبت نام</span>
+            </button>
+            <div class="login-form__password-setting">
+              <label class="login-form__password-remember">
+                <input type="checkbox" class="login-form__password-checkbox" />
+                <span class="login-form__password-text"
+                  >مرا به خاطر داشته باش</span
+                >
+              </label>
+            </div>
+          </form>
+
+          <div class="login-desc">
+            <span class="login-desc-title">سلام کاربر محترم:</span>
+            <ul class="login-desc-list">
+              <li class="login-desc-item">
+                لطفا از مرورگر های مطمئن و بروز مانند گوگل کروم و فایرفاکس
+                استفاده کنید.
+              </li>
+              <li class="login-desc-item">
+                ما هرگز اطلاعات محرمانه شما را از طریق ایمیل درخواست نمی کنیم.
+              </li>
+              <li class="login-desc-item">
+                لطفا کلمه عبور خود را در فواصل زمانی کوتاه تغییر دهید
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- <div class="login"> -->
+        <span class="X">&times;</span>
+        <!-- </div> -->
+      </section>
+    </div>
+
+    <!-- Finish Register -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__title">
+          <h2>VNG</h2>
+          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
+        </div>
+
+        <p class="footer__end">
+          کلیه حقوق مادی و معنوی این وب سایت متعلق به خرزو خان نماینده زور آباد
+          میباشد.
+        </p>
+      </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="vendor/fontawesome/font-awesome.js"></script>
+    <script src="vendor/wow/wow-1.3.0.js"></script>
+    <script src="vendor/kamadatepicker/kamadatepicker.min.js"></script>
+    <script src="scripts/datepicker.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/modals.js"></script>
+  </body>
+</html>

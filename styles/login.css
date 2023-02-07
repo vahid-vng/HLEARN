@@ -1,0 +1,210 @@
+@import "./variables.css";
+@import "./fonts.css";
+
+html {
+  box-sizing: border-box;
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  direction: rtl;
+  font-family: "IRANSans";
+  background-color: var(--bg-color);
+}
+
+/* Start Login Styles */
+
+.login-register-modal {
+  position: fixed;
+  top: 10rem;
+  border-radius: 2rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 90vh;
+  width: 70%;
+  z-index: 999;
+  background-color: var(--secondary-bg-color);
+  display: none;
+}
+
+.login {
+  /* display: flex;
+  align-items: flex-start;
+  background: rgba(19, 19, 23, 0.9);
+  position: relative;
+  width: 70%;
+  padding: 30px;
+  border-radius: 6px;
+  font-size: 22px;
+  animation: 0.5s drop;
+  justify-content: center;
+  z-index: 999; */
+}
+
+.X {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 40px;
+  cursor: pointer;
+  color: var(--orange);
+}
+
+.login-register {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.login {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem 0;
+  padding: 2.5rem 2rem 5rem 2rem;
+  box-shadow: 0 6px 20px rgba(168, 172, 185, 0.3);
+  border-radius: 0.5rem;
+  width: 50rem;
+  border-bottom: 5px solid var(--orange);
+}
+
+.login-title {
+  display: block;
+  color: #7b868a;
+  font-size: 2.2rem;
+}
+
+.login-subtitle {
+  font-size: 1.5rem;
+  color: #7b868a;
+  display: block;
+}
+
+.login__new-member {
+  background-color: #f0f2f7;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.login__new-member-text {
+  font-size: 1.4rem;
+  color: #7b868a;
+}
+
+.login__new-member-link {
+  background-color: #a8aaaf;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--white);
+  margin-right: 0.7rem;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.login-form__username,
+.login-form__password {
+  position: relative;
+}
+
+.login-form__username-input,
+.login-form__password-input {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  padding: 1rem 1.1rem;
+  margin: 0.8rem 0;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.login-form__username-icon,
+.login-form__password-icon {
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  font-size: 2.2rem;
+  color: #ccc;
+}
+
+.login-form__btn {
+  width: 100%;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 0.8rem;
+  background-color: var(--orange);
+}
+
+.login-form__btn-icon {
+  color: var(--white);
+  font-size: 1.8rem;
+  position: absolute;
+  right: 1rem;
+}
+
+.login-form__btn-text {
+  color: var(--white);
+  margin: 0 auto;
+}
+
+.login-form__password-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.login-form__password-remember {
+  display: flex;
+  align-items: center;
+}
+
+.login-form__password-checkbox {
+  margin-left: 1rem;
+  accent-color: var(--orange);
+}
+
+.login-form__password-text,
+.login-form__password-forget-link {
+  font-size: 1.4rem;
+  color: #6c757d;
+}
+
+.login-desc {
+  margin-top: 3rem;
+  color: #7b868a;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.login-desc-list {
+  list-style-type: disc;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+/* Finish Login Styles */
